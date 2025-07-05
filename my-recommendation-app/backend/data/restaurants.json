@@ -1,0 +1,124 @@
+{
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "Student Biryani",
+      "cuisine": ["Pakistani", "Biryani", "Karahi"],
+      "city": "Karachi",
+      "area": "Gulshan-e-Iqbal",
+      "rating": 4.5,
+      "price_range": "₨₨",
+      "delivery_time": "30-40 min",
+      "minimum_order": 300,
+      "popular_items": ["Chicken Biryani", "Beef Biryani", "Chicken Karahi"]
+    },
+    {
+      "id": 2,
+      "name": "Bundu Khan",
+      "cuisine": ["Pakistani", "BBQ", "Mughlai"],
+      "city": "Karachi",
+      "area": "Clifton",
+      "rating": 4.3,
+      "price_range": "₨₨₨",
+      "delivery_time": "40-50 min",
+      "minimum_order": 500,
+      "popular_items": ["Seekh Kabab", "Chicken Tikka", "Mutton Karahi"]
+    },
+    {
+      "id": 3,
+      "name": "KFC Pakistan",
+      "cuisine": ["Fast Food", "Chicken", "Burgers"],
+      "city": "Karachi",
+      "area": "Multiple Locations",
+      "rating": 4.0,
+      "price_range": "₨₨₨",
+      "delivery_time": "25-35 min",
+      "minimum_order": 400,
+      "popular_items": ["Zinger Burger", "Hot Wings", "Krunch Burger"]
+    },
+    {
+      "id": 4,
+      "name": "Pizza Hut Pakistan",
+      "cuisine": ["Pizza", "Italian", "Fast Food"],
+      "city": "Karachi",
+      "area": "Multiple Locations",
+      "rating": 4.1,
+      "price_range": "₨₨₨₨",
+      "delivery_time": "30-45 min",
+      "minimum_order": 600,
+      "popular_items": ["Super Supreme", "Chicken Tikka Pizza", "Cheese Lovers"]
+    },
+    {
+      "id": 5,
+      "name": "Nando's",
+      "cuisine": ["Grilled Chicken", "Portuguese", "Peri Peri"],
+      "city": "Karachi",
+      "area": "DHA",
+      "rating": 4.4,
+      "price_range": "₨₨₨₨",
+      "delivery_time": "35-45 min",
+      "minimum_order": 800,
+      "popular_items": ["Quarter Chicken", "Peri Peri Fries", "Chicken Butterfly"]
+    },
+    {
+      "id": 6,
+      "name": "Javed Nihari",
+      "cuisine": ["Pakistani", "Traditional", "Breakfast"],
+      "city": "Karachi",
+      "area": "Burns Road",
+      "rating": 4.6,
+      "price_range": "₨₨",
+      "delivery_time": "40-50 min",
+      "minimum_order": 400,
+      "popular_items": ["Beef Nihari", "Maghaz Nihari", "Naan"]
+    },
+    {
+      "id": 7,
+      "name": "McDonald's Pakistan",
+      "cuisine": ["Fast Food", "Burgers", "American"],
+      "city": "Karachi",
+      "area": "Multiple Locations",
+      "rating": 3.9,
+      "price_range": "₨₨₨",
+      "delivery_time": "20-30 min",
+      "minimum_order": 350,
+      "popular_items": ["Big Mac", "McRoyale", "Chicken McNuggets"]
+    },
+    {
+      "id": 8,
+      "name": "Kolachi Restaurant",
+      "cuisine": ["Pakistani", "BBQ", "Seafood", "Continental"],
+      "city": "Karachi",
+      "area": "Do Darya",
+      "rating": 4.5,
+      "price_range": "₨₨₨₨",
+      "delivery_time": "45-60 min",
+      "minimum_order": 1000,
+      "popular_items": ["Mutton Chops", "Fish Tikka", "Chicken Malai Boti"]
+    },
+    {
+      "id": 9,
+      "name": "Subway Pakistan",
+      "cuisine": ["Sandwiches", "Fast Food", "Healthy"],
+      "city": "Karachi",
+      "area": "Multiple Locations",
+      "rating": 4.0,
+      "price_range": "₨₨₨",
+      "delivery_time": "25-35 min",
+      "minimum_order": 500,
+      "popular_items": ["Chicken Teriyaki", "Beef Pepperoni", "Veggie Delight"]
+    },
+    {
+      "id": 10,
+      "name": "Ginsoy",
+      "cuisine": ["Chinese", "Thai", "Asian"],
+      "city": "Karachi",
+      "area": "Gulshan",
+      "rating": 4.2,
+      "price_range": "₨₨₨",
+      "delivery_time": "35-45 min",
+      "minimum_order": 600,
+      "popular_items": ["Chicken Chowmein", "Dynamite Prawns", "Beef Chilli Dry"]
+    }
+  ]
+}

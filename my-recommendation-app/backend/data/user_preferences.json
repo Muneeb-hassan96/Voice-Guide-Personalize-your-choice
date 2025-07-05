@@ -1,0 +1,138 @@
+{
+  "user_preferences": [
+    {
+      "user_id": "user_001",
+      "name": "Ahmed Khan",
+      "location": "Gulshan-e-Iqbal, Karachi",
+      "favorite_cuisines": ["Pakistani", "BBQ", "Chinese"],
+      "dietary_restrictions": ["halal"],
+      "spice_tolerance": 3,
+      "average_order_value": 850,
+      "preferred_restaurants": [1, 2, 10],
+      "order_frequency": "weekly"
+    },
+    {
+      "user_id": "user_002",
+      "name": "Fatima Ali",
+      "location": "DHA Phase 5, Karachi",
+      "favorite_cuisines": ["Fast Food", "Pizza", "Continental"],
+      "dietary_restrictions": ["halal", "no_beef"],
+      "spice_tolerance": 2,
+      "average_order_value": 1200,
+      "preferred_restaurants": [3, 4, 5],
+      "order_frequency": "bi-weekly"
+    },
+    {
+      "user_id": "user_003",
+      "name": "Hassan Malik",
+      "location": "Clifton, Karachi",
+      "favorite_cuisines": ["Pakistani", "Traditional", "Seafood"],
+      "dietary_restrictions": ["halal"],
+      "spice_tolerance": 4,
+      "average_order_value": 1500,
+      "preferred_restaurants": [2, 6, 8],
+      "order_frequency": "monthly"
+    }
+  ],
+  "order_history": [
+    {
+      "order_id": "ORD001",
+      "user_id": "user_001",
+      "restaurant_id": 1,
+      "restaurant_name": "Student Biryani",
+      "items": [
+        {
+          "name": "Chicken Biryani (Single)",
+          "quantity": 2,
+          "price": 440
+        },
+        {
+          "name": "Beef Biryani (Single)",
+          "quantity": 1,
+          "price": 280
+        }
+      ],
+      "total": 720,
+      "delivery_fee": 50,
+      "grand_total": 770,
+      "rating": 5,
+      "feedback": "Excellent biryani, authentic taste!",
+      "order_date": "2024-12-15",
+      "delivery_time": "35 min"
+    },
+    {
+      "order_id": "ORD002",
+      "user_id": "user_002",
+      "restaurant_id": 3,
+      "restaurant_name": "KFC Pakistan",
+      "items": [
+        {
+          "name": "Zinger Burger",
+          "quantity": 2,
+          "price": 1100
+        },
+        {
+          "name": "Hot Wings (6 pcs)",
+          "quantity": 1,
+          "price": 420
+        }
+      ],
+      "total": 1520,
+      "delivery_fee": 50,
+      "grand_total": 1570,
+      "rating": 4,
+      "feedback": "Good but a bit too spicy",
+      "order_date": "2024-12-18",
+      "delivery_time": "28 min"
+    },
+    {
+      "order_id": "ORD003",
+      "user_id": "user_001",
+      "restaurant_id": 10,
+      "restaurant_name": "Ginsoy",
+      "items": [
+        {
+          "name": "Chicken Chowmein",
+          "quantity": 1,
+          "price": 650
+        },
+        {
+          "name": "Dynamite Prawns",
+          "quantity": 1,
+          "price": 950
+        }
+      ],
+      "total": 1600,
+      "delivery_fee": 70,
+      "grand_total": 1670,
+      "rating": 5,
+      "feedback": "Best Chinese in town!",
+      "order_date": "2024-12-20",
+      "delivery_time": "42 min"
+    }
+  ],
+  "chatbot_conversations": [
+    {
+      "conversation_id": "CONV001",
+      "user_id": "user_001",
+      "messages": [
+        {
+          "role": "user",
+          "content": "I'm hungry, what should I eat?"
+        },
+        {
+          "role": "bot",
+          "content": "Hello Ahmed! Based on your preferences, I see you love Pakistani food and BBQ. Since it's dinner time, how about some biryani from Student Biryani or BBQ from Bundu Khan?"
+        },
+        {
+          "role": "user",
+          "content": "Biryani sounds good"
+        },
+        {
+          "role": "bot",
+          "content": "Great choice! Student Biryani has excellent options:\n1. Chicken Biryani - Rs. 220\n2. Beef Biryani - Rs. 280\n3. Chicken Karahi - Rs. 600 (serves 2)\nWhat would you like to order?"
+        }
+      ]
+    }
+  ]
+}

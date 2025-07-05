@@ -1,0 +1,474 @@
+{
+  "orders": [
+    {
+      "order_id": "ORD001",
+      "user_id": "user_001",
+      "user_name": "Ahmed Khan",
+      "restaurant_id": 1,
+      "restaurant_name": "Student Biryani",
+      "items": [
+        {
+          "item_id": 101,
+          "name": "Chicken Biryani (Single)",
+          "quantity": 2,
+          "unit_price": 220,
+          "total_price": 440
+        },
+        {
+          "item_id": 102,
+          "name": "Beef Biryani (Single)",
+          "quantity": 1,
+          "unit_price": 280,
+          "total_price": 280
+        }
+      ],
+      "subtotal": 720,
+      "delivery_fee": 50,
+      "discount": 0,
+      "grand_total": 770,
+      "payment_method": "Cash on Delivery",
+      "delivery_address": {
+        "area": "Gulshan-e-Iqbal",
+        "street": "Block 13-D, House 45",
+        "city": "Karachi",
+        "phone": "0321-1234567"
+      },
+      "order_date": "2024-12-15",
+      "order_time": "7:30 PM",
+      "delivery_time": "8:05 PM",
+      "actual_delivery_minutes": 35,
+      "status": "delivered",
+      "rating": 5,
+      "feedback": "Excellent biryani, authentic taste!",
+      "rider_tip": 20,
+      "weather": "clear",
+      "day_of_week": "Friday"
+    },
+    {
+      "order_id": "ORD002",
+      "user_id": "user_002",
+      "user_name": "Fatima Ali",
+      "restaurant_id": 3,
+      "restaurant_name": "KFC Pakistan",
+      "items": [
+        {
+          "item_id": 301,
+          "name": "Zinger Burger",
+          "quantity": 2,
+          "unit_price": 550,
+          "total_price": 1100
+        },
+        {
+          "item_id": 302,
+          "name": "Hot Wings (6 pcs)",
+          "quantity": 1,
+          "unit_price": 420,
+          "total_price": 420
+        },
+        {
+          "item_id": 303,
+          "name": "Pepsi Regular",
+          "quantity": 2,
+          "unit_price": 80,
+          "total_price": 160
+        }
+      ],
+      "subtotal": 1680,
+      "delivery_fee": 70,
+      "discount": 100,
+      "grand_total": 1650,
+      "payment_method": "JazzCash",
+      "delivery_address": {
+        "area": "DHA Phase 5",
+        "street": "Khayaban-e-Seher, House 22",
+        "city": "Karachi",
+        "phone": "0333-9876543"
+      },
+      "order_date": "2024-12-18",
+      "order_time": "9:00 PM",
+      "delivery_time": "9:28 PM",
+      "actual_delivery_minutes": 28,
+      "status": "delivered",
+      "rating": 4,
+      "feedback": "Good but wings were too spicy",
+      "rider_tip": 0,
+      "weather": "clear",
+      "day_of_week": "Monday"
+    },
+    {
+      "order_id": "ORD003",
+      "user_id": "user_001",
+      "user_name": "Ahmed Khan",
+      "restaurant_id": 10,
+      "restaurant_name": "Ginsoy",
+      "items": [
+        {
+          "item_id": 1001,
+          "name": "Chicken Chowmein",
+          "quantity": 1,
+          "unit_price": 650,
+          "total_price": 650
+        },
+        {
+          "item_id": 1002,
+          "name": "Dynamite Prawns",
+          "quantity": 1,
+          "unit_price": 950,
+          "total_price": 950
+        }
+      ],
+      "subtotal": 1600,
+      "delivery_fee": 70,
+      "discount": 0,
+      "grand_total": 1670,
+      "payment_method": "Cash on Delivery",
+      "delivery_address": {
+        "area": "Gulshan-e-Iqbal",
+        "street": "Block 13-D, House 45",
+        "city": "Karachi",
+        "phone": "0321-1234567"
+      },
+      "order_date": "2024-12-20",
+      "order_time": "8:15 PM",
+      "delivery_time": "8:57 PM",
+      "actual_delivery_minutes": 42,
+      "status": "delivered",
+      "rating": 5,
+      "feedback": "Best Chinese in town!",
+      "rider_tip": 50,
+      "weather": "light rain",
+      "day_of_week": "Wednesday"
+    },
+    {
+      "order_id": "ORD004",
+      "user_id": "user_003",
+      "user_name": "Hassan Malik",
+      "restaurant_id": 6,
+      "restaurant_name": "Javed Nihari",
+      "items": [
+        {
+          "item_id": 601,
+          "name": "Beef Nihari (Per Plate)",
+          "quantity": 3,
+          "unit_price": 350,
+          "total_price": 1050
+        },
+        {
+          "item_id": 603,
+          "name": "Naan",
+          "quantity": 6,
+          "unit_price": 20,
+          "total_price": 120
+        }
+      ],
+      "subtotal": 1170,
+      "delivery_fee": 80,
+      "discount": 0,
+      "grand_total": 1250,
+      "payment_method": "Easypaisa",
+      "delivery_address": {
+        "area": "Clifton",
+        "street": "Block 4, Apartment 10-B",
+        "city": "Karachi",
+        "phone": "0300-5555555"
+      },
+      "order_date": "2024-12-22",
+      "order_time": "8:00 AM",
+      "delivery_time": "8:45 AM",
+      "actual_delivery_minutes": 45,
+      "status": "delivered",
+      "rating": 5,
+      "feedback": "Perfect for weekend breakfast!",
+      "rider_tip": 30,
+      "weather": "clear",
+      "day_of_week": "Saturday"
+    },
+    {
+      "order_id": "ORD005",
+      "user_id": "user_002",
+      "user_name": "Fatima Ali",
+      "restaurant_id": 4,
+      "restaurant_name": "Pizza Hut Pakistan",
+      "items": [
+        {
+          "item_id": 401,
+          "name": "Chicken Tikka Pizza (Medium)",
+          "quantity": 1,
+          "unit_price": 899,
+          "total_price": 899
+        },
+        {
+          "item_id": 403,
+          "name": "Garlic Bread",
+          "quantity": 1,
+          "unit_price": 299,
+          "total_price": 299
+        }
+      ],
+      "subtotal": 1198,
+      "delivery_fee": 70,
+      "discount": 150,
+      "grand_total": 1118,
+      "payment_method": "Credit Card",
+      "delivery_address": {
+        "area": "DHA Phase 5",
+        "street": "Khayaban-e-Seher, House 22",
+        "city": "Karachi",
+        "phone": "0333-9876543"
+      },
+      "order_date": "2024-12-25",
+      "order_time": "7:00 PM",
+      "delivery_time": "7:32 PM",
+      "actual_delivery_minutes": 32,
+      "status": "delivered",
+      "rating": 3,
+      "feedback": "Pizza was cold, took too long",
+      "rider_tip": 0,
+      "weather": "clear",
+      "day_of_week": "Tuesday"
+    },
+    {
+      "order_id": "ORD006",
+      "user_id": "user_001",
+      "user_name": "Ahmed Khan",
+      "restaurant_id": 2,
+      "restaurant_name": "Bundu Khan",
+      "items": [
+        {
+          "item_id": 201,
+          "name": "Seekh Kabab (6 pcs)",
+          "quantity": 2,
+          "unit_price": 450,
+          "total_price": 900
+        },
+        {
+          "item_id": 202,
+          "name": "Chicken Tikka (6 pcs)",
+          "quantity": 1,
+          "unit_price": 480,
+          "total_price": 480
+        },
+        {
+          "item_id": 204,
+          "name": "Mint Raita",
+          "quantity": 1,
+          "unit_price": 80,
+          "total_price": 80
+        }
+      ],
+      "subtotal": 1460,
+      "delivery_fee": 60,
+      "discount": 0,
+      "grand_total": 1520,
+      "payment_method": "Cash on Delivery",
+      "delivery_address": {
+        "area": "Gulshan-e-Iqbal",
+        "street": "Block 13-D, House 45",
+        "city": "Karachi",
+        "phone": "0321-1234567"
+      },
+      "order_date": "2024-12-28",
+      "order_time": "8:30 PM",
+      "delivery_time": "9:15 PM",
+      "actual_delivery_minutes": 45,
+      "status": "delivered",
+      "rating": 4,
+      "feedback": "Good BBQ but slightly overcooked",
+      "rider_tip": 20,
+      "weather": "windy",
+      "day_of_week": "Friday"
+    },
+    {
+      "order_id": "ORD007",
+      "user_id": "user_004",
+      "user_name": "Sara Ahmed",
+      "restaurant_id": 5,
+      "restaurant_name": "Nando's",
+      "items": [
+        {
+          "item_id": 501,
+          "name": "Quarter Chicken",
+          "quantity": 1,
+          "unit_price": 750,
+          "total_price": 750
+        },
+        {
+          "item_id": 502,
+          "name": "Peri Peri Fries",
+          "quantity": 1,
+          "unit_price": 250,
+          "total_price": 250
+        }
+      ],
+      "subtotal": 1000,
+      "delivery_fee": 80,
+      "discount": 0,
+      "grand_total": 1080,
+      "payment_method": "Bank Transfer",
+      "delivery_address": {
+        "area": "PECHS",
+        "street": "Block 2, House 67",
+        "city": "Karachi",
+        "phone": "0345-1234567"
+      },
+      "order_date": "2025-01-02",
+      "order_time": "6:45 PM",
+      "delivery_time": "7:30 PM",
+      "actual_delivery_minutes": 45,
+      "status": "delivered",
+      "rating": 5,
+      "feedback": "Perfectly grilled chicken!",
+      "rider_tip": 40,
+      "weather": "clear",
+      "day_of_week": "Thursday"
+    },
+    {
+      "order_id": "ORD008",
+      "user_id": "user_001",
+      "user_name": "Ahmed Khan",
+      "restaurant_id": 1,
+      "restaurant_name": "Student Biryani",
+      "items": [
+        {
+          "item_id": 103,
+          "name": "Chicken Karahi (Half)",
+          "quantity": 1,
+          "unit_price": 600,
+          "total_price": 600
+        },
+        {
+          "item_id": 104,
+          "name": "Roti",
+          "quantity": 4,
+          "unit_price": 15,
+          "total_price": 60
+        }
+      ],
+      "subtotal": 660,
+      "delivery_fee": 50,
+      "discount": 0,
+      "grand_total": 710,
+      "payment_method": "Cash on Delivery",
+      "delivery_address": {
+        "area": "Gulshan-e-Iqbal",
+        "street": "Block 13-D, House 45",
+        "city": "Karachi",
+        "phone": "0321-1234567"
+      },
+      "order_date": "2025-01-05",
+      "order_time": "9:00 PM",
+      "delivery_time": "9:38 PM",
+      "actual_delivery_minutes": 38,
+      "status": "delivered",
+      "rating": 5,
+      "feedback": "Karahi was amazing as always!",
+      "rider_tip": 30,
+      "weather": "clear",
+      "day_of_week": "Sunday"
+    },
+    {
+      "order_id": "ORD009",
+      "user_id": "user_005",
+      "user_name": "Ali Raza",
+      "restaurant_id": 7,
+      "restaurant_name": "McDonald's Pakistan",
+      "items": [
+        {
+          "item_id": 701,
+          "name": "Big Mac",
+          "quantity": 1,
+          "unit_price": 650,
+          "total_price": 650
+        },
+        {
+          "item_id": 702,
+          "name": "Chicken McNuggets (6 pcs)",
+          "quantity": 1,
+          "unit_price": 380,
+          "total_price": 380
+        },
+        {
+          "item_id": 703,
+          "name": "Fries (Large)",
+          "quantity": 1,
+          "unit_price": 180,
+          "total_price": 180
+        }
+      ],
+      "subtotal": 1210,
+      "delivery_fee": 50,
+      "discount": 100,
+      "grand_total": 1160,
+      "payment_method": "JazzCash",
+      "delivery_address": {
+        "area": "FB Area",
+        "street": "Block 16, House 23",
+        "city": "Karachi",
+        "phone": "0312-7654321"
+      },
+      "order_date": "2025-01-08",
+      "order_time": "10:30 PM",
+      "delivery_time": "10:55 PM",
+      "actual_delivery_minutes": 25,
+      "status": "delivered",
+      "rating": 4,
+      "feedback": "Fast delivery, food was fresh",
+      "rider_tip": 20,
+      "weather": "clear",
+      "day_of_week": "Wednesday"
+    },
+    {
+      "order_id": "ORD010",
+      "user_id": "user_003",
+      "user_name": "Hassan Malik",
+      "restaurant_id": 8,
+      "restaurant_name": "Kolachi Restaurant",
+      "items": [
+        {
+          "item_id": 801,
+          "name": "Mutton Chops",
+          "quantity": 1,
+          "unit_price": 1800,
+          "total_price": 1800
+        },
+        {
+          "item_id": 802,
+          "name": "Fish Tikka",
+          "quantity": 1,
+          "unit_price": 1200,
+          "total_price": 1200
+        }
+      ],
+      "subtotal": 3000,
+      "delivery_fee": 100,
+      "discount": 200,
+      "grand_total": 2900,
+      "payment_method": "Credit Card",
+      "delivery_address": {
+        "area": "Clifton",
+        "street": "Block 4, Apartment 10-B",
+        "city": "Karachi",
+        "phone": "0300-5555555"
+      },
+      "order_date": "2025-01-10",
+      "order_time": "8:00 PM",
+      "delivery_time": "9:05 PM",
+      "actual_delivery_minutes": 65,
+      "status": "delivered",
+      "rating": 3,
+      "feedback": "Good food but very late delivery",
+      "rider_tip": 0,
+      "weather": "heavy rain",
+      "day_of_week": "Friday"
+    }
+  ],
+  "summary_stats": {
+    "total_orders": 10,
+    "average_order_value": 1289,
+    "most_ordered_cuisine": "Pakistani",
+    "peak_ordering_time": "8:00 PM - 9:00 PM",
+    "busiest_day": "Friday",
+    "average_delivery_time": 38.5,
+    "average_rating": 4.3
+  }
+}

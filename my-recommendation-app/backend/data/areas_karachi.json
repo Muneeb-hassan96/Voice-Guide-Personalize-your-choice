@@ -1,0 +1,44 @@
+{
+  "cities": {
+    "karachi": {
+      "areas": [
+        {"name": "Gulshan-e-Iqbal", "delivery_charge": 50},
+        {"name": "DHA Phase 1-8", "delivery_charge": 70},
+        {"name": "Clifton", "delivery_charge": 70},
+        {"name": "PECHS", "delivery_charge": 60},
+        {"name": "Nazimabad", "delivery_charge": 50},
+        {"name": "North Nazimabad", "delivery_charge": 50},
+        {"name": "FB Area", "delivery_charge": 50},
+        {"name": "Gulistan-e-Johar", "delivery_charge": 50},
+        {"name": "Malir", "delivery_charge": 80},
+        {"name": "Saddar", "delivery_charge": 60},
+        {"name": "Korangi", "delivery_charge": 70},
+        {"name": "Landhi", "delivery_charge": 80},
+        {"name": "Shah Faisal Colony", "delivery_charge": 60},
+        {"name": "Bahadurabad", "delivery_charge": 50}
+      ]
+    },
+    "lahore": {
+      "areas": [
+        {"name": "Gulberg", "delivery_charge": 50},
+        {"name": "DHA Lahore", "delivery_charge": 70},
+        {"name": "Model Town", "delivery_charge": 60},
+        {"name": "Johar Town", "delivery_charge": 60},
+        {"name": "Garden Town", "delivery_charge": 50},
+        {"name": "Cantt", "delivery_charge": 70},
+        {"name": "Mall Road", "delivery_charge": 60}
+      ]
+    },
+    "islamabad": {
+      "areas": [
+        {"name": "F-6", "delivery_charge": 50},
+        {"name": "F-7", "delivery_charge": 50},
+        {"name": "F-8", "delivery_charge": 50},
+        {"name": "F-10", "delivery_charge": 60},
+        {"name": "F-11", "delivery_charge": 60},
+        {"name": "Blue Area", "delivery_charge": 50},
+        {"name": "G-6", "delivery_charge": 50}
+      ]
+    }
+  }
+}
